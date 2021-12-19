@@ -1,15 +1,19 @@
-# Basic Sample Hardhat Project
+# SNAX Recipe NFTs
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+This project allows for the creation of on-chain customizeable SVG-presented recipe NFT's. Each recipe is assigned a randomized authentication signature of 3 food emoji's.
 
-Try running some of the following tasks:
+What else do you need to know?
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
+How to start it up.
+How to redeploy
+How to deploy to rinkeby
+How to deploy to mainnet
+How to use the system
+What to pass to the contract
+How to find your NFT's
+
+
+```
+hardhat run scripts/deploy.js --network rinkeby
+hardhat run scripts/run.js
 ```
